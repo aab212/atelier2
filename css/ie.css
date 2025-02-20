@@ -1,0 +1,16 @@
+.main-slider .other-page-link{
+	display:none;	
+}
+
+.left-aligned.default-post-style .image-column .post-info,
+.right-aligned.default-post-style .image-column .post-info{
+	display:none;	
+}
+
+.left-aligned.default-post-style.style-one .image-column{
+	padding-left:15px;	
+}
+
+.right-aligned.default-post-style.style-one .image-column{
+	padding-right:15px;	
+}

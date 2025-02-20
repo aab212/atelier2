@@ -1,0 +1,71 @@
+/* Pop-up overlay */
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pop-up content */
+.popup-content {
+    position: relative;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.popup-content img {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+/* Close button */
+.close-button {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    color: #faf8f6;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000;
+    border: 2px solid #faf8f6;
+}
+
+/* Hover effect for the close button */
+/* .close-button:hover {
+    background-color: #ccc;
+    color: #fff;
+} */
+
+/* Navigation arrows */
+.arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    color: #000000;
+    cursor: pointer;
+    user-select: none;
+    transform: translateY(-50%);
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
